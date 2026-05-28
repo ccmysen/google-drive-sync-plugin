@@ -6,5 +6,8 @@
 	"description": "Google drive plugin that does bi-directional sync between your obsidian vault and your google drive.",
 	"author": "Chris Mysen",
 	"authorUrl": "https://github.com/ccmysen",
-	"isDesktopOnly": false
+	"isDesktopOnly": false,
+  "fundingUrl": {
+    "Buy Me a Coffee": "https://buymeacoffee.com/bigharryoxt"
+  }
 }
