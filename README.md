@@ -1,12 +1,12 @@
 # Google Drive Sync with Edits
 
-Google Drive Sync with Edits is a seamless, secure, and mobile-friendly plugin that synchronizes your Obsidian vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices and allows for manual edits including edits directly in google drive.
+Google Drive Sync with Edits is a seamless, secure, and mobile-friendly plugin that synchronizes your vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices and allows for manual edits including edits directly in google drive.
 
 ---
 
 ## Key Features
 
-* **Two-Way Synchronization**: Automatically reconciles changes between your local Obsidian vault and Google Drive.
+* **Two-Way Synchronization**: Automatically reconciles changes between your local vault and Google Drive.
 * **Real-Time Incremental Sync**: Edits, creations, renames, and deletions are detected in real-time and pushed to Google Drive (with a 5-second debounce delay to prevent rate-limiting while typing).
 * **Secure and Private (App-Specific Access)**: The plugin **only** has access to folders and files it creates. It cannot view, edit, or delete any of your other personal files on Google Drive.
 * **Visual Pending-Sync Indicators**:
