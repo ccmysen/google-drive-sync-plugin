@@ -1,6 +1,6 @@
 # Obsidian Drive Sync
 
-Obsidian Drive Sync is a seamless, secure, and mobile-friendly plugin that synchronizes your Obsidian vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices.
+Obsidian Drive Sync is a seamless, secure, and mobile-friendly plugin that synchronizes your Obsidian vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices and allows for manual edits including edits directly in google drive.
 
 ---
 
@@ -8,15 +8,13 @@ Obsidian Drive Sync is a seamless, secure, and mobile-friendly plugin that synch
 
 * **Two-Way Synchronization**: Automatically reconciles changes between your local Obsidian vault and Google Drive.
 * **Real-Time Incremental Sync**: Edits, creations, renames, and deletions are detected in real-time and pushed to Google Drive (with a 5-second debounce delay to prevent rate-limiting while typing).
-* **Secure and Private (App-Specific Access)**: Uses the restricted `drive.file` OAuth scope. The plugin **only** has access to folders and files it creates. It cannot view, edit, or delete any of your other personal files on Google Drive.
-* **Line-Ending Normalization (LF)**: Automatically normalizes text files to LF internally. This prevents cross-platform line-ending discrepancies (CRLF vs. LF) between Windows, macOS, Linux, iOS, and Android from causing false conflicts or failing to delete files.
+* **Secure and Private (App-Specific Access)**: The plugin **only** has access to folders and files it creates. It cannot view, edit, or delete any of your other personal files on Google Drive.
 * **Visual Pending-Sync Indicators**:
   * An asterisk (`*`) is appended to the note header title when a file has unsaved edits waiting in the sync queue.
   * An hourglass (`⏳`) is appended next to the file name in the File Explorer to indicate it has pending changes.
 * **Conflict Resolution**:
   * **Text Files**: Conflicting edits on the same file are merged inline using Git-style conflict markers (`<<<<<<< Local Changes` and `>>>>>>> Remote Changes`), ensuring no data is lost.
   * **Binary Files**: If a binary file (e.g. images, PDFs) has conflicting edits, the local file is renamed with a `.sync-conflict` prefix, preserving both versions.
-* **Automatic Empty Directory Cleanup**: Automatically cleans up and prunes empty directories locally when files inside them are deleted.
 
 ---
 
