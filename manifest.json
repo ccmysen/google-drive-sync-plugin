@@ -1,0 +1,10 @@
+{
+	"id": "obsidian_drive_sync",
+	"name": "Obsidian Drive Sync",
+	"version": "0.8.0",
+	"minAppVersion": "0.15.0",
+	"description": "Syncer operation that does bi-directional sync between your obsidian vault and your google drive.",
+	"author": "Chris Mysen",
+	"authorUrl": "https://github.com/ccmysen",
+	"isDesktopOnly": false
+}
