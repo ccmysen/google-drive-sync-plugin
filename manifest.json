@@ -1,6 +1,6 @@
 {
 	"id": "google-drive-sync-evo",
-	"name": "Google Drive Sync",
+	"name": "Google Drive Sync with Edits",
 	"version": "0.8.3",
 	"minAppVersion": "0.15.0",
 	"description": "Google drive plugin that does bi-directional sync between your obsidian vault and your google drive with manual edits.",
