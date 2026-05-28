@@ -1,6 +1,6 @@
-# Obsidian Drive Sync
+# Google Drive Sync with Edits
 
-Obsidian Drive Sync is a seamless, secure, and mobile-friendly plugin that synchronizes your Obsidian vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices and allows for manual edits including edits directly in google drive.
+Google Drive Sync with Edits is a seamless, secure, and mobile-friendly plugin that synchronizes your Obsidian vault notes and assets with Google Drive. It operates automatically in the background to ensure your notes are backed up and accessible across all your devices and allows for manual edits including edits directly in google drive.
 
 ---
 
@@ -20,7 +20,7 @@ Obsidian Drive Sync is a seamless, secure, and mobile-friendly plugin that synch
 
 ## Getting Started & Configuration
 
-After installing and enabling the plugin, go to **Obsidian Settings** → **Obsidian Drive Sync** to configure your connection:
+After installing and enabling the plugin, go to **Obsidian Settings** → **Google Drive Sync with Edits** to configure your connection:
 
 ### 1. Authentication
 Click **Login** to authorize the plugin to access your Google Drive. There are two modes available:
